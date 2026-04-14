@@ -3,9 +3,15 @@
  * Mon: Mang Cam Bien - Tuan 03
  */
 
+
 int adcValues[2]; 
 float nhietDo[2]; 
 char chuoi[50]; // tăng size cho JSON
+
+int adcValues[3];
+float nhietDo[3];
+char chuoi[30];
+>>>>>>> main
 
 void setup() {
   Serial.begin(9600);
@@ -23,5 +29,12 @@ void loop() {
   sprintf(chuoi, "{\"A0\":%d,\"A1\":%d}\n", (int)nhietDo[0], (int)nhietDo[1]);
   
   Serial.print(chuoi);
+  
+  adcValues[2] = analogRead(A2);
+  nhietDo[2] = (adcValues[2] * 500.0) / 1023.0;
+
+  sprintf(chuoi, "%d,%d,%d\n", (int)nhietDo[0], (int)nhietDo[1], (int)nhietDo[2]);
+  Serial.print(chuoi);
+
   delay(100);
 }
