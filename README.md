@@ -31,11 +31,13 @@ Dự án sử dụng Arduino để đọc nhiệt độ từ cảm biến LM35 v
 
 ## Cấu trúc thư mục
 
+```
 project/
 ├── firmware/
 │   └── LM35_TempReader/
 │       └── LM35_TempReader.ino
 └── README.md
+```
 
 ---
 
