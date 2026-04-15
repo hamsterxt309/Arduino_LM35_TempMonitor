@@ -50,5 +50,5 @@ project/
 
 ## Tác giả
 
-- **Nguyễn Huy Hiệu**  
-  [Xem trang cá nhân](https://hamsterxt309.github.io/)
+- Nguyễn Huy Hiệu  
+  Trang cá nhân: https://hamsterxt309.github.io/
