@@ -43,5 +43,12 @@ project/
 
 ## Thành viên nhóm
 
-1. Nguyễn Huy Hiệu - N23DCCI024 - Chủ repo
-2. Thái Gia Kỳ - N23DCCI038 - Thành viên hỗ trợ
+1. Nguyễn Huy Hiệu - N23DCCI024
+2. Thái Gia Kỳ - N23DCCI038
+
+---
+
+## Tác giả
+
+- **Nguyễn Huy Hiệu**  
+  [Xem trang cá nhân](https://hamsterxt309.github.io/)
